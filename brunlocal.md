@@ -16,7 +16,7 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<p> We recommend running FORCsensei locally. You may need to install Anaconda, but the increase in performance will be worth it. This <a href="https://youtu.be/qJ7x1fgyDAI" target="_blank">tutorial video</a> will guide you through the use of FORCsensei.</p>
+<p> You can run FORCsensei locally, but there are a number of packages that you will need to install. If you are not familiar with Python and package management then we recommend that you use the cloud-based version of FORCsensei.</p>
 
 <h2>Install Anaconda</h2>
 <p>Anaconda is a free and open-source distribution of the Python. Anaconda comes with more than 1,400 packages as well as the Conda package and virtual environment manager, called Anaconda Navigator, so it eliminates the need to install each library independently. Anaconda also includes Jupyter Notebooks, which is the foundation for FORCsensei.</p> 
@@ -30,10 +30,22 @@ nav-menu: true
 <li>macOS & Linux - We recommend that you <b>do</b> add Anaconda to the PATH.</li>
 </ul></p>
 
-<h2>Download the FORCsensei Notebook</h2>
-<p>The most recent version of the FORCsensei Jupyter notebook is hosted on GitHub. You will need to download it so that it can be run locally.</p> 
+<h2>Install Dependencies</h2>
+<p>FORCsensei requires a number of extra packages, which can be installed via pip or sudo.</p> 
 
-<p> Right click <a href="https://raw.githubusercontent.com/FORCaist/forcsensei/master/FORCsensei.ipynb" download>this link</a> and save the FORCsensei notebook into a folder on your computer. The saved notebook should have the filename <i><b>FORCsensei.ipynb</b></i> </p>
+<p>Specifically you'll need:
+appmode
+ipyfilechooser
+numba
+IPython==7.2.0
+matplotlib==2.2.2
+numpy==1.15.0
+ipywidgets==7.5.1
+scipy==1.1.0
+bokeh==1.0.4
+git+https://github.com/FORCaist/turbosensei.git
+jupyter_contrib_nbextensions
+</p>
 
 <h2>Running FORCsensei</h2>
 <p>You can start the FORCsensei notebook in a number of ways:</p> 
