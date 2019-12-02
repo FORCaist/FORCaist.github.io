@@ -34,6 +34,11 @@ nav-menu: true
 <p>FORCsensei requires a number of extra packages, which can be installed via pip or sudo.</p> 
 
 <p>Specifically you'll need:
+ <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
  - appmode
  - ipyfilechooser
  - numba
