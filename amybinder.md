@@ -16,11 +16,11 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<p>A full functional version of FORCsensei is available on the mybinder.org free cloud service. This means you can run FORCsensei without installing any packages on your computer.
+<p>A full functional version of FORCsensei is available on the mybinder.org free cloud service. This means you can run FORCsensei without installing any packages on your computer.</p>
 
-This <a href="https://youtu.be/hFAtYJLci5I" target="_blank">tutorial video</a> will guide you through the use of FORCsensei on the cloud.
+<p>This <a href="https://youtu.be/hFAtYJLci5I" target="_blank">tutorial video</a> will guide you through the use of FORCsensei on the cloud.</p>
 
-You can launch FORCsensei on the cloud by clicking this button:</p>
+<p>You can launch FORCsensei on the cloud by clicking this button:</p>
 
 <a href="https://mybinder.org/v2/gh/FORCaist/turbosensei/master?urlpath=%2Fapps%2FTURBOsensei.ipynb" target="_blank">
 <img src="https://mybinder.org/badge_logo.svg">
