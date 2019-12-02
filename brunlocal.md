@@ -29,5 +29,3 @@ nav-menu: true
 <p>Once the dependencies are installed you can download the FORCsensei notebook <a href="https://github.com/FORCaist/turbosensei/blob/master/TURBOsensei.ipynb" target="_blank">here</a>.</p> 
 
 <p> FORCsensei is designed to be run in <a href="https://github.com/oschuett/appmode" target="_blank">Appmode</a>, which should appear as a button once you open the notebook in Jupyter.</p>
-
-<a href="https://github.com/jupyter/repo2docker" target="_blank">repo2docker</a>
