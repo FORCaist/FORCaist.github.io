@@ -52,6 +52,4 @@ nav-menu: true
 <h2>Running FORCsensei</h2>
 <p>You can download the FORCsensei notebook <a href="https://github.com/FORCaist/turbosensei/blob/master/TURBOsensei.ipynb" target="_blank">here</a>.</p> 
 
-<p> FORCsensei is designed to be run in <a href="https://github.com/oschuett/appmode" target="_blank">Appmode</a>, which should appear as a button once you open the notebook in Jupyter</p>
-
-https://github.com/oschuett/appmode
+<p> FORCsensei is designed to be run in <a href="https://github.com/oschuett/appmode" target="_blank">Appmode</a>, which should appear as a button once you open the notebook in Jupyter.</p>
