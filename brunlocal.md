@@ -16,7 +16,7 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<p> You can run FORCsensei locally, but there are a number of packages that you will need to install. If you are not familiar with Python and package management then we recommend that you use the cloud-based version of FORCsensei.</p>
+<p> You can run FORCsensei locally, but there are a number of packages that you will need to install. If you are not familiar with Python, Jupyter notebooks and package management, we recommend that you use the cloud-based version of FORCsensei.</p>
 
 <h2>Install Anaconda</h2>
 <p>Anaconda is a free and open-source distribution of the Python. Anaconda comes with more than 1,400 packages as well as the Conda package and virtual environment manager, called Anaconda Navigator, so it eliminates the need to install each library independently. Anaconda also includes Jupyter Notebooks, which is the foundation for FORCsensei.</p> 
@@ -31,27 +31,24 @@ nav-menu: true
 </ul></p>
 
 <h2>Install Dependencies</h2>
-<p>FORCsensei requires a number of extra packages, which can be installed via pip or sudo.</p> 
+<p>FORCsensei requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda).</p> 
 
 <p>Specifically you'll need:
  <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>appmode</li>
+  <li>ipyfilechooser</li>
+  <li>numba</li>
+  <li>IPython</li>
+  <li>matplotlib</li>	 
+  <li>numpy</li>
+  <li>ipywidgets</li>
+  <li>scipy</li>
+  <li>bokeh</li>
+  <li>jupyter_contrib_nbextensions</li>
+  <li>dask distributed</li>
+  <li>git+https://github.com/FORCaist/turbosensei.git</li>
 </ul>
- - appmode
- - ipyfilechooser
- - numba
-IPython==7.2.0
-matplotlib==2.2.2
-numpy==1.15.0
-ipywidgets==7.5.1
-scipy==1.1.0
-bokeh==1.0.4
-git+https://github.com/FORCaist/turbosensei.git
-jupyter_contrib_nbextensions
-</p>
-
+ 
 <h2>Running FORCsensei</h2>
 <p>You can start the FORCsensei notebook in a number of ways:</p> 
 
