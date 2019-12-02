@@ -16,7 +16,8 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<p> You can run FORCsensei locally, but there are a number of packages that you will need to install. If you are not familiar with Python, Jupyter notebooks and package management, we recommend that you use the cloud-based version of FORCsensei.</p>
+<p> You can run FORCsensei locally, but there are a number of packages that you will need to install. If you are not familiar with Python, Jupyter notebooks and package management, we recommend that you use the <a href="https://forcaist.github.io/FORCaist.github.io/amybinder.html" target="_blank">cloud-based</a>
+ version of FORCsensei.</p>
 
 <h2>Option 1: Docker</h2>
 <p>A relatively simple approach to running FORCsensei locally is via <a href="https://www.docker.com/" target="_blank">Docker</a>. Install <a href="https://www.docker.com/" target="_blank">Docker</a> and then create an image to run on your system directly from the FORCsensei GitHub repository using <a href="https://github.com/jupyter/repo2docker" target="_blank">repo2docker</a>.</p> 
