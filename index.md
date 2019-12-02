@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-All FORCaist code is open-source and can be found on <a href="https://github.com/FORCaist/forcsensei" target="_blank">GitHub</a> 
+All FORCaist code is open-source and can be found on <a href="https://github.com/FORCaist/turbosensei" target="_blank">GitHub</a> 
