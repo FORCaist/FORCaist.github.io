@@ -50,6 +50,6 @@ nav-menu: true
 </ul>
  
 <h2>Running FORCsensei</h2>
-<p>You can start find the FORCsensei notebook here</p> 
+<p>You can download the FORCsensei notebook here</p> 
 
 <p> FORCsensei is designed to be run in Appmode, which should appear as a button once you open the notebook in Jupyter</p>
