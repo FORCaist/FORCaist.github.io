@@ -34,9 +34,9 @@ nav-menu: true
 <p>FORCsensei requires a number of extra packages, which can be installed via pip or sudo.</p> 
 
 <p>Specifically you'll need:
-appmode
-ipyfilechooser
-numba
+ - appmode
+ - ipyfilechooser
+ - numba
 IPython==7.2.0
 matplotlib==2.2.2
 numpy==1.15.0
