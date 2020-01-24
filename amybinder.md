@@ -22,6 +22,6 @@ nav-menu: true
 
 <p>You can launch FORCsensei on the cloud by clicking this button:</p>
 
-<a href="https://mybinder.org/v2/gh/FORCaist/turbosensei/master?urlpath=%2Fapps%2FTURBOsensei.ipynb" target="_blank">
+<a href="https://mybinder.org/v2/gh/FORCaist/forcsensei/master?urlpath=%2Fapps%2FFORCsensei.ipynb" target="_blank">
 <img src="https://mybinder.org/badge_logo.svg">
 </a>
