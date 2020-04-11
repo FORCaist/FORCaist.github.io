@@ -25,6 +25,10 @@ nav-menu: true
 <h2>Option 2: Install Dependencies</h2>
 <p>To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda). You can find a list of the dependencies in the <a href="https://github.com/FORCaist/forcsensei/blob/master/requirements.txt" target="_blank">requirements.txt</a> file.</p>
 
+```
+pip install packages
+```
+
 <p>Some of the packages require extra commands to activate them, check on the developers' sites to obtain this information for your system. </p>
 
 <p>Once the dependencies are installed you can download the FORCsensei notebook <a href="https://github.com/FORCaist/forcsensei/blob/master/FORCsensei.ipynb" target="_blank">here</a>.</p> 
