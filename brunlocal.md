@@ -26,13 +26,14 @@ nav-menu: true
 Locally installation should be straight-forward. This installation procedure has been tested on a number of systems, but we discuss potential installation issues at the bottom of this page.
 
 
+
 Please be aware the local installation will add new packages (or potentially overwrite existing packages) on your system. If you are not comfortable with this, then you should not attempt local installation.
 
 
 First, if you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/
 
 
-To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda). Open a terminal and give the commands:
+To run FORCsensei locally requires a number of extra packages, which can be installed via ```pip``` or ```sudo```. Open a terminal and give the commands:
 
 ```
 pip install appmode
