@@ -23,9 +23,13 @@ nav-menu: true
 <p>A relatively simple approach to running FORCsensei locally is via <a href="https://www.docker.com/" target="_blank">Docker</a>. Install <a href="https://www.docker.com/" target="_blank">Docker</a> and then create an image to run on your system directly from the FORCsensei GitHub repository using <a href="https://github.com/jupyter/repo2docker" target="_blank">repo2docker</a>.</p> 
 
 <h2>Option 2: Local Installation</h2>
-Locally installation should be straight-forward, but we discuss potential installation issues at the bottom of this page.
+Locally installation should be straight-forward. This installation procedure has been tested on a number of systems, but we discuss potential installation issues at the bottom of this page.
 
-If you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/
+
+Please be aware the local installation will add new packages (or potentially overwrite existing packages) on your system. If you are not comfortable with this, then you should not attempt local installation.
+
+
+First, if you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/
 
 
 To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda). Open a terminal and give the commands:
