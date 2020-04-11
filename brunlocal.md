@@ -67,11 +67,12 @@ Click the ```Appmode``` button in the banner at the top and FORCsensei should be
 
 <h3>Solutions to potential installation issues</h3>
 <HR SIZE="6">
+
 An error appears when I give the command:
+
 ```pip install git+https://github.com/FORCaist/forcsensei.git```
 
 It looks like your system can't install packages from from git repositories. Potential solutions are:
 
-..* MAC - give the commands ```xcode-select --install```, then ```xcode-select --reset```
-
-..* Windows - Buy a MAC
+* MAC - give the commands ```xcode-select --install```, then ```xcode-select --reset```
+* Windows - I don't know, buy a MAC
