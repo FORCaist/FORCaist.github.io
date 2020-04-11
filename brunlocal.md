@@ -23,7 +23,7 @@ nav-menu: true
 <p>A relatively simple approach to running FORCsensei locally is via <a href="https://www.docker.com/" target="_blank">Docker</a>. Install <a href="https://www.docker.com/" target="_blank">Docker</a> and then create an image to run on your system directly from the FORCsensei GitHub repository using <a href="https://github.com/jupyter/repo2docker" target="_blank">repo2docker</a>.</p> 
 
 <h2>Option 2: Local Installation</h2>
-Locally installation should be straight-forward, but we had add solutions to potential installation issues at the bottom of this page.
+Locally installation should be straight-forward, but we discuss potential installation issues at the bottom of this page.
 
 If you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/
 
@@ -76,3 +76,17 @@ It looks like your system can't install packages from from git repositories. Pot
 
 * MAC - give the commands ```xcode-select --install```, then ```xcode-select --reset```
 * Windows - I don't know, buy a MAC
+
+<HR SIZE="6">
+
+An error appears when I give the command:
+
+```pip install ...``` for a given package
+
+This isn't a FORCsensei related error, but rather something to do with the third-party package you are trying to install. Visit the package homepage, or google the error to try to get more information.
+
+<HR SIZE="6">
+
+The ```FORCsensei.ipynb``` file is saved onto my system as ```FORCsensei.ipynb.html```
+
+This may occur if you are using Safari, which has a nasty habit of appending ```.html``` to certain types of files. The easiest solution is to visit the FORCsensei GitHib repository (https://github.com/FORCaist/forcsensei). Download the entire repository as a ZIP file using the green ```Clone or Download``` button. Contained within the ZIP will be a copy of ```FORCsensei.ipynb``` without the random ```.html``` extension. 
