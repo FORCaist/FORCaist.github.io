@@ -23,7 +23,11 @@ nav-menu: true
 <p>A relatively simple approach to running FORCsensei locally is via <a href="https://www.docker.com/" target="_blank">Docker</a>. Install <a href="https://www.docker.com/" target="_blank">Docker</a> and then create an image to run on your system directly from the FORCsensei GitHub repository using <a href="https://github.com/jupyter/repo2docker" target="_blank">repo2docker</a>.</p> 
 
 <h2>Option 2: Local Installation</h2>
-<p>To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda). </p>
+Locally installation should be straight-forward, but we had add solutions to potential installation issues at the bottom of this page.
+
+If you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/ 
+
+To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda).
 
 ```
 pip install appmode
@@ -44,7 +48,7 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable --py --sys-prefix appmode
 jupyter serverextension enable --py --sys-prefix appmode
 ```
-<p>Once the dependencies are installed you can download the FORCsensei notebook <a href="https://github.com/FORCaist/forcsensei/blob/master/FORCsensei.ipynb" target="_blank">here</a>.</p> 
+<p>Once the dependencies are installed you can download the FORCsensei notebook <a href="https://github.com/FORCaist/forcsensei/blob/master/FORCsensei.ipynb" target="_blank">here</a>. Save the FORCsensei notebook into a folder of your choice</p> 
 
 Now, ```cd``` into the folder where you placed ```FORCsensei.ipynb``` and give the command:
 ```
@@ -58,4 +62,7 @@ jupyter notebook FORCsensei.ipynb
 
 <p> FORCsensei is designed to be run in <a href="https://github.com/oschuett/appmode" target="_blank">Appmode</a>, which should appear as a button once you open the notebook in Jupyter.</p> 
 
-Click the ```Appmode``` button in the banner at the top and FORCsensei should be ready to run (see the video tutorial). 
+Click the ```Appmode``` button in the banner at the top and FORCsensei should be ready to run (see the video tutorial).
+
+<h4>Solutions to potential installation issues</h4>
+Some text here
