@@ -56,4 +56,4 @@ Everything should now be ready. You can start FORCsensei, using the command:
 jupyter notebook FORCsensei.ipynb
 ```
 
-<p> FORCsensei is designed to be run in <a href="https://github.com/oschuett/appmode" target="_blank">Appmode</a>, which should appear as a button once you open the notebook in Jupyter. Click the ```Appmode``` button in the banner at the top and FORCsensei should be ready to run (see the video tutorial). </p>
+<p> FORCsensei is designed to be run in <a href="https://github.com/oschuett/appmode" target="_blank">Appmode</a>, which should appear as a button once you open the notebook in Jupyter.</p> Click the ```Appmode``` button in the banner at the top and FORCsensei should be ready to run (see the video tutorial). 
