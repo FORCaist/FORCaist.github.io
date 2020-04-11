@@ -25,9 +25,10 @@ nav-menu: true
 <h2>Option 2: Local Installation</h2>
 Locally installation should be straight-forward, but we had add solutions to potential installation issues at the bottom of this page.
 
-If you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/ 
+If you don't have Python and/or Jupyter installed, we recommend installing Anaconda from: https://www.anaconda.com/distribution/
 
-To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda).
+
+To run FORCsensei locally requires a number of extra packages, which can be installed via pip or sudo (some will be included in Anaconda). Open a terminal and give the commands:
 
 ```
 pip install appmode
@@ -64,5 +65,13 @@ jupyter notebook FORCsensei.ipynb
 
 Click the ```Appmode``` button in the banner at the top and FORCsensei should be ready to run (see the video tutorial).
 
-<h4>Solutions to potential installation issues</h4>
-Some text here
+<h3>Solutions to potential installation issues</h3>
+<HR SIZE="6">
+An error appears when I give the command:
+```pip install git+https://github.com/FORCaist/forcsensei.git```
+
+It looks like your system can't install packages from from git repositories. Potential solutions are:
+
+..* MAC - give the commands ```xcode-select --install```, then ```xcode-select --reset```
+
+..* Windows - Buy a MAC
