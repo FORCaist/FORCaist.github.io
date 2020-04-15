@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Run FORCsensei in MS Excel
+title: FORCsensei FAQ
 image: assets/images/excel2.jpg
 nav-menu: True
 ---
