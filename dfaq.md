@@ -13,7 +13,7 @@ nav-menu: True
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Run in MS Excel</h1>
+			<h1>FORCsensei FAQ</h1>
 		</header>
 
 <!-- Content -->
