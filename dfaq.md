@@ -17,6 +17,6 @@ nav-menu: True
 		</header>
 
 <!-- Content -->
-<p>A version for FORCsensei for MS Excel doesn't currently exist. If you create FORCsensei for Excel, then please send it to us and we'll put it here!</p>
+<p>Here you can find a number of FAQs that might be helpful</p>
 
 
