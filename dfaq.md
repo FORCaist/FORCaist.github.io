@@ -28,7 +28,7 @@ nav-menu: True
 <p>Unfortunatly, cloud services don't provide such diagnostic information to their users, so we can't offer the same Dask dashboard for the cloud version of FORCsensei.</p>
 <hr />
 <p><strong>What does the Assume Sc<sub>0</sub> = Sb<sub>0</sub> option do?</strong></p>
-<p>If enabled, this option means you will only search for VARIFORC models, where the minimum horizontal and vertical smoothing factors are the same. Experience is shown that setting&nbsp;Sc<sub>0</sub> = Sb<sub>0</sub> can reach artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
+<p>If enabled, this option means you will only search for VARIFORC models where the minimum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>0</sub> = Sb<sub>0</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
 <hr />
 <p><strong>How many Dask workers should I use?</strong></p>
 <p>Dask workers are the key to parallel processing in FORCsensei. Each worker can handle a seperate computation task, so the more workers you use, the faster FORCsensei should run. However, each worker uses memory and CPU power. If you choose too few workers, the calculation will be slow but given enough time will finish. If you try to use too many workers, FORCsensei will error due to insufficent memory/CPU resourses. In such cases you'll need to restart FORCsensei from scratch and try again with fewer workers.</p>
