@@ -18,10 +18,10 @@ nav-menu: True
 
 <!-- Content -->
 <p>&nbsp;</p>
-<p><strong>Why won't FORCsensei won't read my data file</strong></p>
+<p><strong>Why won't FORCsensei won't read my data file?</strong></p>
 <p>FORCsensei has been written to read most Princeton Instrument and Lake Shore Cryotronics text file formats. If you have a file format that FORCsensei seems to be struggling with, then send us an example and we'll (try to) update FORCsensei's file reading routines.</p>
 <hr />
-<p><strong>Is there a progress bar to monitor the model comparison process</strong></p>
+<p><strong>Is there a progress bar to monitor the model comparison process?</strong></p>
 <p>The model comparison can take some time. The good news is that if you are running FORCsensei locally you can monitor the process. Simply open a browser tab and paste in the address:</p>
 <p><a class="reference external" href="http://localhost:8787/status">http://localhost:8787/status</a></p>
 <p>This will take you to a Dask dashboard, which will show you the progress of the computation, including the number of tasks completed, memory/CPU usage, etc.&nbsp;</p>
@@ -37,6 +37,6 @@ nav-menu: True
 <p><strong>I've used FORCsensei in my work and I'd like to cite it.</strong></p>
 <p>We plan to publish a manuscript about the FORCsensei algorithm. We'll provide citation details once they are available.</p>
 <hr />
-<p><strong>I've got a suggestion for an FAQ, found a bug, or have a suggestion for FORCsensei</strong></p>
+<p><strong>I've got a question, found a bug, or have a suggestion for FORCsensei</strong></p>
 <p>Sure, we're all ears. Feel free to send it to us.</p>
 
