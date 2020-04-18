@@ -27,7 +27,7 @@ nav-menu: True
 <p>This will open a new brower tab and take you to a Dask dashboard, which will show you the progress of the computation, including the number of tasks completed, memory/CPU usage, etc.&nbsp;</p>
 <p>Unfortunatly, third-party cloud services don't provide such diagnostic information to their users, so we can't offer the same Dask dashboard for the cloud version of FORCsensei.</p>
 <hr />
-<p><h3>What does the Assume Sc<sub>0</sub> = Sb<sub>0</sub> option do?</h3></p>
+<p><h3><a id="AssumeS">What does the Assume Sc<sub>0</sub> = Sb<sub>0</sub> option do?</a></h3></p>
 <p>If enabled, this option means you will only search for VARIFORC models where the minimum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>0</sub> = Sb<sub>0</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
 <hr />
 <p><h3><a id="dask_workers">How many Dask workers should I use?</a></h3></p>
