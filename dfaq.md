@@ -41,4 +41,4 @@ nav-menu: True
 <hr />
 <p><h3>I've got a question, found a bug, or have a suggestion for FORCsensei</h3></p>
 <p>We're all ears. Feel free to send it to us.</p>
-<style>hr { background-color: white; height: 7px; border: 0; }</style>
+<style>hr { background-color: white; height: 5px; border: 0; }</style>
