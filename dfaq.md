@@ -21,6 +21,7 @@ nav-menu: True
 <p><h3>Why won't FORCsensei won't read my data file?</h3></p>
 <p>FORCsensei has been written to read most Princeton Instrument and Lake Shore Cryotronics text file formats. If you have a file format that FORCsensei seems to be struggling with, then send us an example and we'll (try to) update FORCsensei's file reading routines.</p>
 <hr />
+<a id="progress1"></a>
 <p><h3><a id="progress">Is there a progress bar to monitor the model comparison process?</a></h3></p>
 <p>The model comparison can take some time. The good news is that if you are running FORCsensei locally you can monitor the process. Simply click on the address below:</p>
 <p><a class="reference external" href="http://localhost:8787/status" target="_blank">http://localhost:8787/status</a></p>
