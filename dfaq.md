@@ -18,6 +18,7 @@ nav-menu: True
 
 <!-- Content -->
 <p>&nbsp;</p>
+<hr />
 <p><h3>Why won't FORCsensei won't read my data file?</h3></p>
 <p>FORCsensei has been written to read most Princeton Instrument and Lake Shore Cryotronics text file formats. If you have a file format that FORCsensei seems to be struggling with, then send us an example and we'll (try to) update FORCsensei's file reading routines.</p>
 <hr />
