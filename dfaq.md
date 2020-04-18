@@ -22,9 +22,9 @@ nav-menu: True
 <p>FORCsensei has been written to read most Princeton Instrument and Lake Shore Cryotronics text file formats. If you have a file format that FORCsensei seems to be struggling with, then send us an example and we'll (try to) update FORCsensei's file reading routines.</p>
 <hr />
 <p><h4>Is there a progress bar to monitor the model comparison process?</h4></p>
-<p>The model comparison can take some time. The good news is that if you are running FORCsensei locally you can monitor the process. Simply open a browser tab and paste in the address:</p>
-<p><a class="reference external" href="http://localhost:8787/status">http://localhost:8787/status</a></p>
-<p>This will take you to a Dask dashboard, which will show you the progress of the computation, including the number of tasks completed, memory/CPU usage, etc.&nbsp;</p>
+<p>The model comparison can take some time. The good news is that if you are running FORCsensei locally you can monitor the process. Simply click on the address below:</p>
+<p><a class="reference external" href="http://localhost:8787/status" target="_blank">http://localhost:8787/status</a></p>
+<p>This will open a new brower tab and take you to a Dask dashboard, which will show you the progress of the computation, including the number of tasks completed, memory/CPU usage, etc.&nbsp;</p>
 <p>Unfortunatly, cloud services don't provide such diagnostic information to their users, so we can't offer the same Dask dashboard for the cloud version of FORCsensei.</p>
 <hr />
 <p><h4>What does the Assume Sc<sub>0</sub> = Sb<sub>0</sub> option do?</h4></p>
