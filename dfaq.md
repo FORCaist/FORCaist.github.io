@@ -37,7 +37,7 @@ nav-menu: True
 <hr />
 <p><h3>I've used FORCsensei in my work and I'd like to cite it.</h3></p>
 <p>We plan to publish a manuscript about the FORCsensei algorithm. We'll provide citation details once they are available.</p>
-<hr style="border-width: 10px !important;">
+hr{ background-color: white; height: 7px; border: 0; }
 <p><h3>I've got a question, found a bug, or have a suggestion for FORCsensei</h3></p>
 <p>We're all ears. Feel free to send it to us.</p>
 
