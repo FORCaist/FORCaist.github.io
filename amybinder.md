@@ -18,7 +18,7 @@ nav-menu: true
 <!-- Content -->
 <p>A full functional version of FORCsensei is available on the mybinder.org free cloud service. This means you can run FORCsensei without installing any software or packages, but it may be (very) slow.</p>
 
-<p>This <a href="https://youtu.be/1ylBnYteVxI" target="_blank">tutorial video</a> will guide you through the initialization of FORCsensei on the cloud.</p>
+<p>This <a href="https://youtu.be/rv-UbYKHLgk" target="_blank">tutorial video</a> will guide you through the initialization of FORCsensei on the cloud.</p>
 
 <p>You can launch FORCsensei on the cloud by clicking this button:</p>
 
