@@ -32,6 +32,9 @@ nav-menu: True
 <p><h3><a id="AssumeS">What does the Assume Sc<sub>0</sub> = Sb<sub>0</sub> option do?</a></h3></p>
 <p>If enabled, this option means you will only search for VARIFORC models where the minimum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>0</sub> = Sb<sub>0</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
 <hr />
+<p><h3><a id="AssumeS1">What does the Assume Sc<sub>1</sub> = Sb<sub>1</sub> option do?</a></h3></p>
+<p>If enabled, this option means you will only search for VARIFORC models where the maximum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>1</sub> = Sb<sub>1</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
+<hr />
 <p><h3><a id="dask_workers">How many Dask workers should I use?</a></h3></p>
 <p>Dask workers are the key to parallel processing in FORCsensei. Each worker can handle a seperate computation task, so the more workers you use, the faster FORCsensei should run. However, each worker uses memory and CPU power. If you choose too few workers, the calculation will be slow but given enough time will finish. If you try to use too many workers, FORCsensei will error due to insufficent memory/CPU resourses. In such cases you'll need to restart FORCsensei from scratch and try again with fewer workers.</p>
 <p>So, how many workers should you use? This depends on your system. For a typical laptop between 4 and 8 workers should be okay. If you are working on a cloud service with limited resources, then choose 4 or less. If you have FORCsensei running on a high-end computer or HPC, then you can try more (up to a maximum of 20).</p>
