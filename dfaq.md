@@ -29,11 +29,11 @@ nav-menu: True
 <p>This will open a new brower tab and take you to a Dask dashboard, which will show you the progress of the computation, including the number of tasks completed, memory/CPU usage, etc.&nbsp;</p>
 <p>Unfortunatly, third-party cloud services don't provide such diagnostic information to their users, so we can't offer the same Dask dashboard for the cloud version of FORCsensei.</p>
 <hr />
-<p><h3><a id="AssumeS">What does the Assume Sc<sub>0</sub> = Sb<sub>0</sub> option do?</a></h3></p>
-<p>If enabled, this option means you will only search for VARIFORC models where the minimum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>0</sub> = Sb<sub>0</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
+<p><h3><a id="AssumeS">What does the Assume Sc<sub>0</sub> = Su<sub>0</sub> option do?</a></h3></p>
+<p>If enabled, this option means you will only search for VARIFORC models where the minimum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>0</sub> = Su<sub>0</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
 <hr />
-<p><h3><a id="AssumeS1">What does the Assume Sc<sub>1</sub> = Sb<sub>1</sub> option do?</a></h3></p>
-<p>If enabled, this option means you will only search for VARIFORC models where the maximum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>1</sub> = Sb<sub>1</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
+<p><h3><a id="AssumeS1">What does the Assume Sc<sub>1</sub> = Su<sub>1</sub> option do?</a></h3></p>
+<p>If enabled, this option means you will only search for VARIFORC models where the maximum horizontal and vertical smoothing factors are the same. Experience has shown that setting&nbsp;Sc<sub>1</sub> = Su<sub>1</sub> can reduce artifacts in the final FORC plot and it has the added advantage of dramatically reducing the number of models that need to be compared.</p>
 <hr />
 <p><h3><a id="dask_workers">How many Dask workers should I use?</a></h3></p>
 <p>Dask workers are the key to parallel processing in FORCsensei. Each worker can handle a seperate computation task, so the more workers you use, the faster FORCsensei should run. However, each worker uses memory and CPU power. If you choose too few workers, the calculation will be slow but given enough time will finish. If you try to use too many workers, FORCsensei will error due to insufficent memory/CPU resourses. In such cases you'll need to restart FORCsensei from scratch and try again with fewer workers.</p>
